@@ -12,9 +12,9 @@ def triangleNumbers():
 
 
 def numFactorsOf(x):
-	# Up to the square root of x, take divisor i and complimentary factor x/i, reduce the two lists output
-	# from the range function to one list, then conver the list to a set to remove duplicates, 
-	# finally and take the length of that set... phew! 
+	'''Up to the square root of x, take divisor i and complimentary factor x/i, reduce the two lists output
+	   from the range function to one list, then conver the list to a set to remove duplicates, 
+	   finally and take the length of that set... phew! '''
     return 	len(	
     			set(	
     				reduce(
