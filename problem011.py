@@ -27,6 +27,7 @@ class Grid:
 		return self.grid[x][y]
 
 	def display( self, group ):
+		''' Given a grouping of grid coordinates, print the grid with the group colored'''
 		for r in range( self.rowCount ):
 			for c in range( self.colCount ):
 				if (r, c) in group:
